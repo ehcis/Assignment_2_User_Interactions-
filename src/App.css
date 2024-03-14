@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Header */
+.about{
+  background-color: rgb(124, 120, 120);
+  text-align:center;
+  padding: 0;
+  margin: 0; 
+  line-height: 10px;
+
+}
+
+.about h1{
+  font-family: 'monaco', monospace;
+  color:white;
+  font-size: 40px;
+}
+
+.about h2{
+  font-family: 'monaco', monospace;
+  color:white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.about h3{
+  font-family: 'monaco', monospace;
+  color:navy;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Custom Horizontal Line */
+hr{
+  border-color: black;
+  border-width: 10x;
+  box-shadow: 0 0 10px rgb(0, 0, 0), 
+              0 0 30px rgb(0, 0, 0); 
+
+}
+
+/* CSUSB IMG */
+.csusbimg{
+  text-align: center;
+}
+
+/* LEFT SIDE COLUMN*/
+.intro{
+  background-color: rgb(124, 120, 120);
+  width:33.33%;
+  float:left;
+  font-family: 'optima', sans-serif;
+  font-size:15.5px;
+  line-height: 30px;
+  color:white;
+ 
+}
+
+.intro h2{
+  text-align: center; 
+  font-family: 'optima', sans-serif;
+  color: rgb(244, 233, 233);
+  font-size:25px;
+}
+
+/* RIGHT SIDE COLUMN*/
+.skills{
+  background-color: rgb(124, 120, 120);
+  width:33.33%;
+  float:left;
+  font-family: 'optima', sans-serif;
+  font-size:15.5px;
+  line-height: 30px;
+  color:white;
+}
+
+.skills h2{
+  text-align: center; 
+  font-family: 'optima', sans-serif;
+  color: rgb(252, 252, 252);
+  font-size:25px;
+
+}
+
+/* MIDDLE COLUMN*/
+.hobbies{
+  background-color: rgb(124, 120, 120);
+  width:33.33%;
+  font-family: 'optima', sans-serif;
+  font-size:15.5px;
+  line-height: 30px;
+  color:white;
+  float: right; 
+}
+
+.hobbies h2{
+  text-align: center; 
+  font-family: 'optima', sans-serif;
+  color: rgb(252, 252, 252);
+  font-size:25px;
+}
+
+
+body{
+  background-color: rgb(18, 17, 17);
+}
