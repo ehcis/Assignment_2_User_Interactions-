@@ -24,7 +24,7 @@ The following **bonus** features are implemented:
 
 <img src="Images/github_organized.png" title='Question 1' width='' alt='Github Organized' />
 <img src="Images/React_AboutMePage.png" title='Question 2' width='' alt='React Page' />
-<img src="Images/Venv_Pip.png" title='Question 3' width='' alt='Selenium Setup' />
+<img src="Images/selenium_install.png" title='Question 4' width='' alt='Selenium Output' />
 <img src="Images/Tut_Output.png" title='Question 4' width='' alt='Selenium Output' />
 <img src="Images/metric_tracker.png" title='Question 5' width='' alt='Metric Tracker' />
 
